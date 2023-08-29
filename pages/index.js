@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
-import Link from 'next/Link';
+import Link from 'next/link';
 import { getSortedPostsData } from '../lib/posts';
 import Date from '../components/date';
 
@@ -12,7 +12,7 @@ export default function Home({allPostsData}) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Trying out NextJS during the Summer break! Here's my{' '}
+        <p>Trying out NextJS during the Summer break! This is my{' '}
           <a href= "https://www.deanza.edu/">college</a>
         </p>
         <p>You can Click {' '}
